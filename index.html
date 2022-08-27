@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+  <title>Aprendizes de Fi</title>
+  <link rel="icon" 
+        type="image/png" 
+        href="Imagens/Nome.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="Styles/main.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<!-- Menu -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#construcao">Construção</a></li>
+        <li><a href="#download">Jogar</a></li>
+        <li><a href="#eventos">Apresentações em eventos</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#contato">Fale conosco</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Banner -->
+<div class="jumbotron text-center">
+    <div id="imagem" class="container"></div>
+        <img class="w3-image" src="Imagens/js.png" style="width: 40%; height: auto;" alt="Logo">      
+      </div>
+</div>
+
+<!-- Sobre -->
+<div id="page-home">
+<div id="sobre" class="container-fluid text-center bg-grey">
+      <h2 id class="text-center"><p id="demo">Hora e data Javascript</p></h2>
+      <br>
+      <p id="demo"></p>
+       <button id="botaodata" type="button" onclick="displayDate()">Atualizar</button>
+  <br><br><br>
+
+</div>
+</div>
+<div id="page-home">
+  <div id="sobre" class="container-fluid">
+    <div class="row">
+      <div id= "cool" class="col-sm-7">
+        <h2 class="text-center">Jogo online</h2>
+        <h4> Pensando em ir além, nossa equipe criou uma versão online do jogo Aprendizes de Fi, objetivando uma disseminação ainda maior. O formato do jogo online se adequa ao momento em que vivemos de reclusão social devido ao COVID-19, permitindo alunos jogarem entre si mesmo em locais diferentes a qualquer momento. </h4> 
+      </div>
+      <div class="col-sm-4">
+        <img class="img-fluid" src="Imagens/jogo online.png" alt="" style="width:100%;">
+      </div>
+    </div>
+    <br><br>
+
+<!-- Construção -->
+<div id="construcao" class="container-fluid text-center">
+  <h2>Construção</h2>
+  <h4>Com todas facilidades que a tecnologia nos proporciona hoje em dia, a construção do jogo não poderia ser diferente. Após realizar o download, basta abrir os arquivos em PDF e realizar a impressão dos componentes do jogo e o seu manual. A impressão deve ser realizada em folha A4, podendo os arquivos serem impressos em frente e verso ou apenas frente. Após impresso os arquivos, basta recortar em suas extremidades e montar o jogo! </h4> 
+</div>
+
+<!-- Download -->
+<div id="download" class="container-fluid text-center bg-grey">
+  <h2>Jogar</h2>
+  <h4>Para realizar o download do jogo, clique no botâo abaixo. Antes de iniciar o download, é necessário preencher alguns dados, mas fique tranquilo, seus dados não serão divulgados. Após o preenchimento dos dados você poderá escolher entre realizar o download do jogo para montar ou jogar online.</h4>
+<br>
+  <button type="submit" onclick="window.location.href='formulario.html'" class="btn btn-primary">Pessoa Física</button><br><br>
+  <button type="submit" onclick="window.location.href='formulariopj.html'" class="btn btn-primary">Pessoa Jurídica</button>
+  <br><br>
+  <h6><a href="privacidade.html" class=text-center>Política de privacidade</a></h6>
+</div>
+<br>
+
+<!-- Eventos -->
+<div id="page-home">
+  <div id="eventos" class="container-fluid">
+    <div class="row">
+      <div id= "cool" class="col-sm-7">
+        <h2 class="text-center">20ª Congresso Nacional de Iniciação Científica</h2><br>
+        <h4>Realizado de forma virtual pelo SEMESP, foi feita uma apresentação sobre o jogo de tabuleiro físico no 20º Congresso Nacional de Iniciação Científica, que tem como objetivo identificar talentos, estimular a produção de conteúdo científico além de viabilizar na prática os projetos apresentados pelos alunos, por meio do exercício da criatividade e de conhecimentos adquiridos. </h4><br>  
+      </div>
+      <div class="col-sm-4">
+        <br><br><br><br>
+        <img class="img-fluid" src="Imagens/conic.png" alt="" style="width:100%;">
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <div id= "cool" class="col-sm-7">
+        <h2 class="text-center">1ª Semana da Computação</h2><br>
+        <h4>Foi feita uma apresentação do jogo online na 1ª Semana da Computação, que é um evento acadêmico de extensão sendo realizado de forma virtual em 2020, tendo como objetivo principal contribuir para a formação técnica e social dos discentes, e promover o contato entre o CEFET-MG e os mais diversos setores da sociedade de Leopoldina e região.</h4><br>    
+      </div>
+      <div class="col-sm-4">
+        <br>
+        <img class="img-fluid" src="Imagens/semana da computacao.jpeg" alt="" style="width:100%;">
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <div id= "cool" class="col-sm-7">
+        <h2 class="text-center">30ª META</h2><br>
+        <h4>Apresentou-se o jogo online na 30ª META, sendo um evento de caráter científico e tecnológico, promovido pelo CEFET-MG desde 1978, que divulga, para a comunidade interna e externa, trabalhos desenvolvidos por alunos e ex-alunos. Sendo realizada de forma virtual em 2020, tem como objetivos dentre os principais propiciar aos educandos o desenvolvimento de habilidades e autonomia para realização de projetos e equacionamento de problemas científicos, tecnológicos, ambientais e sociais.</h4><br>  
+      </div>
+      <div class="col-sm-4">
+        <br><br><br><br><br>
+        <img class="img-fluid" src="Imagens/meta.png" alt="" style="width:100%;">
+      </div>
+    </div>
+    <div class="row">
+      <div id= "cool" class="col-sm-7">
+        <h2 class="text-center">16ª Semana C&T</h2><br>
+        <h4>Na 16ª Semana de Ciência & Tecnologia tivemos nosso artigo publicado sobre o jogo online, sendo o evento apresentado de forma virtual este ano. Trata-se de um evento aberto ao público, com o objetivo de reunir alunos, professores, funcionários e comunidade em geral em torno de debates, seminários, minicursos e conferências sobre cultura, ciência e tecnologia, em diversas áreas do saber. </h4><br>  
+      </div>
+      <div class="col-sm-4">
+        <br><br><br><br>
+        <img class="img-fluid" src="Imagens/c&t.png" alt="" style="width:100%;">
+      </div>
+    </div>
+  </div>
+
+<!-- Equipe -->
+<div class="text-center">
+    <h2>Equipe</h2>
+    <br><br>
+    <div id="Membro1"class="row">  
+        <div>
+          <div>
+            <div class="member"></div>
+            <section id="equipe" class="equipe">
+              <div class="container">
+
+                <div class="row">
+                  <div class="header-content-inner">	
+                    <div class="linha">
+                      <div class="box">
+                        <div class="subbox">
+                            <img src="Imagens/Time 1.jpg" class="rounded-circle" />
+                            <br><br>
+                            <p><b id="nome">Kenny Araújo Lima </b></p>                           
+                            <p>Estudante de Engenharia de Computação no CEFET-MG, campus Leopoldina</p>
+                            <br>
+                            <div class="social-medias">
+                              <div class="subsubbox">
+                                <a href="https://www.instagram.com/kenny.lima/?hl=pt-br"><img src="Imagens/instagram.svg" class="rounded-circle"/></a>
+                              </div>             
+                              <div class="subsubbox">
+                                <a href="https://www.linkedin.com/in/kenny-lima-630428184/"><img src="Imagens/linkedin.svg" class="rounded-circle"/></a>
+                              </div>
+                              <div class="subsubbox">
+                                <a href="mailto:kennylima@hotmail.com"><img src="Imagens/mail.svg" class="rounded-circle"/></a>
+                              </div>
+                              <div class="subsubbox">
+                                <a href="https://www.facebook.com/kenny.lima1"><img src="Imagens/facebook.svg" class="rounded-circle"/></a>
+                              </div>
+                          </div>
+                        </div>
+                        <br>
+                      </div>
+                      <div class="box">
+                        <div class="subbox">
+                            <img src="Imagens/Time 2.jpeg" class="rounded-circle" />
+                            <br><br>
+                            <p><b id="nome">Matheus Malaquias Santos</b></p>            
+                            <p>Estudante do curso técnico em Informática no CEFET-MG, campus Leopoldina</p>
+                            <br>
+                            <div class="social-medias">
+                              <div class="subsubbox">
+                                <a href="https://www.instagram.com/matheussantos3786/?hl=pt-br"><img src="Imagens/instagram.svg" class="rounded-circle"/></a>                              
+                              </div>
+                              <div class="subsubbox">
+                                <a href="https://www.google.com/"><img src="Imagens/linkedin.svg" class="rounded-circle"/></a>                           
+                              </div>
+                              <div class="subsubbox">
+                                <a href="mailto:matheussantos3786@gmail.com"><img src="Imagens/mail.svg" class="rounded-circle"/></a>
+                              </div>
+                              <div class="subsubbox">
+                                <a href="https://www.google.com/"><img src="Imagens/facebook.svg" class="rounded-circle"/></a>
+                              </div>
+                          </div>
+                        </div>
+                        <br>
+                      </div>
+              <br><br><br>
+                      
+                    </div>	
+                    <div class="linha">
+                      <div class="box">
+                        <div class="subbox" >
+                            <img src="Imagens/Time 3.jpg" class="rounded-circle" />
+                            <br><br>
+                            <p><b id="nome">Gabriella Castro B. C. Dalpra</b></p>                           
+                            <p>Professora do CEFET-MG,
+                              campus Leopoldina</p>
+                            <br>
+                            <div class="social-medias" >
+                              <div class="subsubbox">
+                                <a href="https://www.instagram.com/gabriellacastrobarbosacosta/?hl=pt-br"><img src="Imagens/instagram.svg" class="rounded-circle"/></a>
+                              </div>
+                              <div class="subsubbox">
+                                <a href="https://www.linkedin.com/in/gabriellacbc/"><img src="Imagens/linkedin.svg" class="rounded-circle"/></a>
+                              </div>
+                              <div class="subsubbox">
+                                <a href="mailto:gabriella@cefetmg.br"><img src="Imagens/mail.svg" class="rounded-circle"/></a>
+                              </div>
+                              <div class="subsubbox">
+                                <a href="https://www.facebook.com/gabriellacbc"><img src="Imagens/facebook.svg" class="rounded-circle"/></a>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="box">
+                        <div class="subbox">
+                            <img src="Imagens/Time 4.jpg" class="rounded-circle" />
+                            <br><br>
+                            <p><b id="nome">Jeronimo Costa Penha</b></p>          
+                            <p>Professor do CEFET-MG,
+                              campus Leopoldina</p>
+                            <br>
+                            <div class="social-medias" >
+                              <div class="subsubbox">
+                                <a href="https://www.instagram.com/jeronimo.penha/?hl=pt-br"><img src="Imagens/instagram.svg" class="rounded-circle"/></a>
+                              </div>
+                              <div class="subsubbox">
+                                <a href="https://www.google.com/"><img src="Imagens/linkedin.svg" class="rounded-circle"/></a>
+                              </div>
+                              <div class="subsubbox">
+                                <a href="mailto:jpenha@cefetmg.br"><img src="Imagens/mail.svg" class="rounded-circle"/></a>
+                              </div>
+                              <div class="subsubbox">
+                                <a href="https://www.facebook.com/jcostapenha"><img src="Imagens/facebook.svg" class="rounded-circle"/></a>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+              
+                      <div class="box">
+                        <div class="subbox">
+                            <img src="Imagens/Time 5.jpeg" class="rounded-circle" />
+                            <br><br>
+                            <p><b id="nome">Luís Augusto Mattos Mendes</b></p>             
+                            <p>Professor do CEFET-MG,
+                              campus Leopoldina</p>
+                            <br>
+                            <div class="social-medias">
+                              <div class="subsubbox">
+                                <a href="https://www.instagram.com/laug_br/"><img src="Imagens/instagram.svg" class="rounded-circle"/></a>
+                              </div>
+                              <div class="subsubbox">
+                                <a href="https://www.google.com/"><img src="Imagens/linkedin.svg" class="rounded-circle"/></a>
+                              </div>
+                              <div class="subsubbox">
+                                <a href="mailto:luisaugusto@cefetmg.br"><img src="Imagens/mail.svg" class="rounded-circle"/></a>
+                              </div>
+                              <div class="subsubbox">
+                                <a href="https://www.facebook.com/luisaugusto.mendes.1"><img src="Imagens/facebook.svg" class="rounded-circle"/></a>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                  </div>
+                </div>
+              </div>
+              </section>
+      </div>
+    </div>    
+  </div>
+</div>
+
+<!-- Contato -->
+<section class="content">
+<div id="contato" class="container-fluid bg-grey">
+  <h2 class="text-center">Fale conosco</h2><br>
+  <form class="form" method="POST" action="/inc/email.php">
+    <div class="col1-sm-6 slideanim">
+      <div class="row">
+        <div id="fale"class=col-sm-6>
+          <input class="form-control" id="name" name="name" placeholder="Nome" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Mensagem" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+ 
+          <button class="btn btn-default pull-right" type="submit">Enviar mensagem</button>
+        </div>
+      </div>
+    </div>
+  </form>
+  </div>
+  </section>
+
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>2020 Projeto Aprendizes de Fi</p>
+</footer>
+
+<script>
+$(document).ready(function(){
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+function displayDate(){
+    document.getElementById("demo").innerHTML=Date();
+  }
+
+</script>
+</body>
+</html>
