@@ -2,17 +2,20 @@
     padding-top: 10%;
     margin-top: 0px;
 }
+
 #form button {
     background-color: black;
     border-color: black;
     color: white;
-  }
+}
+
 #form a {
     background-color: black;
     border-color: black;
     color: white;
-  }
-  #arquivo form input {
+}
+
+#arquivo form input {
     background-color: black;
     color: white;
     border-color: black;
@@ -21,8 +24,7 @@
     align-items: center;
     justify-items: center;
     justify-content: center;
-    
     width: 130px;
     height: 40px;
-  }
+}
   

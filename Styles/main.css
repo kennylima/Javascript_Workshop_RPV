@@ -3,26 +3,27 @@ body {
     line-height: 1.8;
     color: #818181;
   }
-  h2 {
+
+h2 {
     font-size: 24px;
     text-transform: uppercase;
     color: #303030;
     font-weight: 600;
     margin-bottom: 10px;
-    
-  }
-  h4 {
+}
+
+h4 {
     font-size: 19px;
     line-height: 1.375em;
     color: #303030;
     font-weight: 400;
-  }
+}
   
-  .contador {  
+.contador {  
     font-size:50px;  
 }
 
-  #botaodata{
+#botaodata{
     background-color: black;
     border-radius: 8px;
     border-color: black;
@@ -32,34 +33,37 @@ body {
     padding: 20px;
     font-size: 30px;
     text-align: center;
-  }
+}
   
-  .jumbotron {
+.jumbotron {
     background-color: black;
     color: #fff;
     margin-top: 30px;
     font-family: Montserrat, sans-serif;
-  }
-  .container-fluid {
-    padding: 60px 50px;
-  
-  }
-  .bg-grey {
-    background-color: rgb(255, 255, 97);
-  }
+}
 
-  .item h4 {
+.container-fluid {
+    padding: 60px 50px;  
+}
+
+.bg-grey {
+    background-color: rgb(255, 255, 97);
+}
+
+.item h4 {
     font-size: 19px;
     line-height: 1.375em;
     font-weight: 400;
     font-style: italic;
     margin: 70px 0;
-  }
-  .item span {
+}
+
+.item span {
     font-style: normal;
     margin-top: 1px;
-  }
-  .navbar {
+}
+
+.navbar {
     margin-bottom: 0;
     background-color: black;
     z-index: 9999;
@@ -70,44 +74,46 @@ body {
     border-radius: 0;
     font-family: Montserrat, sans-serif;
     width: 100%;
-  }
-  .navbar li a, .navbar .navbar-brand {
+}
+
+.navbar li a, .navbar .navbar-brand {
     color: yellow !important;
-  }
-  .navbar-nav li a:hover, .navbar-nav li.active a {
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
     color: black !important;
     background-color: yellow !important;
-  }
-  .navbar-default .navbar-toggle {
+}
+
+.navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
-  }
-  footer .glyphicon {
+}
+
+footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
     color: black;
-  }
+}
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;
-      margin: 25px 0;
-      
+      margin: 25px 0;      
     }
     .btn-lg {
       width: 100%;
-      
-      
     }
-  }
+}
 
 #cool {
   text-align: justify; 
 }
+
 #team1{
   justify-content: center;
-
 }
+
 #fale{
   justify-content: center;
   justify-items: center;
@@ -117,11 +123,12 @@ body {
 
 #construcao{
   text-align: justify;
-
 }
+
 #construcao h2{
   text-align: center;
 }
+
 #tex{
   padding-top: 100px;
 }
@@ -130,192 +137,231 @@ body {
   background-color: black;
   border-color: black;
 }
+
 #contato button {
   background-color: black;
   border-color: black;
   color: white;
 }
 
-  footer, section.contact {
+footer, section.contact {
   text-align:center
-  }
-  @media (min-width:992px) {
+}
+
+@media (min-width:992px) {
   header .header-content .header-content-inner h1 {
   font-size:50px
   }
-  }
+}
 
-  section.download {
+section.download {
   padding:150px 0;
   position:relative
-  }
-  section.download h2 {
+ }
+
+section.download h2 {
   margin-top:0;
   font-size:50px
-  }
-  section.download .badges .badge-link:last-child {
-  margin-bottom:0
-  }
-  section.download .badges .badge-link img {
-  height:60px
-  }
-  section.features .section-heading {
-  margin-bottom:100px
-  }
-  section.features .section-heading h2 {
-  margin-top:0
-  }
-  section.features .section-heading p {
-  margin-bottom:0
-  }
+}
 
-  section.features .device-container {
+section.download .badges .badge-link:last-child {
+  margin-bottom:0
+}
+
+section.download .badges .badge-link img {
+  height:60px
+}
+
+section.features .section-heading {
   margin-bottom:100px
-  }
-  @media (min-width:992px) {
+}
+
+section.features .section-heading h2 {
+  margin-top:0
+}
+
+section.features .section-heading p {
+  margin-bottom:0
+}
+
+section.features .device-container {
+  margin-bottom:100px
+}
+
+@media (min-width:992px) {
   section.features .device-container {
   margin-bottom:0
   }
   section.features .device-container, section.features .feature-item {
   max-width:none
   }
-  }
-  section.features .feature-item {
+}
+
+section.features .feature-item {
   text-align:center;
   margin-bottom:100px
-  }
+}
 
-  section.features .feature-item h3 {
+section.features .feature-item h3 {
   font-size:30px
-  }
+}
 
-  footer ul, section.contact ul.list-social {
+footer ul, section.contact ul.list-social {
   margin-bottom:0
-  }
-  footer p, footer ul li a {
+}
+
+footer p, footer ul li a {
   font-size:12px
-  }
-  footer p {
+}
+
+footer p {
   margin:0
-  }
-  footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li a:hover {
+}
+
+footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li a:hover {
   text-decoration:none
-  }
-  .btn {
+}
+
+.btn {
   border-radius:300px
-  }
-  .btn-xl {
+}
+
+.btn-xl {
   padding:15px 45px;
   font-size:11px
-  }
-  .footer .widget-title {
+}
+
+.footer .widget-title {
       position: relative;
       display: block;
       margin-bottom: 30px;
-  }
-  body.app_version .dev-list .widget-title small{
+}
+
+body.app_version .dev-list .widget-title small{
       font-size: 14px;
-  }
-  body.demos .container-fluid {
+}
+
+body.demos .container-fluid {
       max-width: 1080px
-  }
-  li.social-links {
+}
+
+li.social-links {
       margin: 0 8px;
       display: inline-block;
       font-size: 20px;
-  }
-  a img.alignright {
+}
+
+a img.alignright {
       float: right;
       margin: 10px 0 20px 20px;
-  }
-  a img.alignnone {
+}
+
+a img.alignnone {
       margin: 10px 20px 20px 0;
-  }
-  a img.alignleft {
+}
+
+a img.alignleft {
       float: left;
       margin: 10px 20px 20px 0;
-  }
-  .btn {
+}
+
+.btn {
       border: 0 !important;
-  }
-  .nav-pills,
-  .effect-1:after,
-  .nav-pills > li > a,
-  .global-radius,
-  .btn-brd {
+}
+
+.nav-pills,
+.effect-1:after,
+.nav-pills > li > a,
+.global-radius,
+.btn-brd {
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
       border-radius: 6px;
-  }
-  .nome{
+}
+
+.nome{
       text-align: center;
-  }
-  .rounded-circle {
+}
+
+.rounded-circle {
     border-radius: 50% !important;
     width: 60%;
-  }
-  .list-inline {
+}
+
+.list-inline {
     padding-left: 0;
     list-style: none;
-  }
-  .list-inline-item {
+}
+
+.list-inline-item {
     display: inline-block;
-  }
-  .list-inline-item:not(:last-child) {
+}
+
+.list-inline-item:not(:last-child) {
     margin-right: 0.5rem;
-  }
-  .imagem{
+}
+
+.imagem{
     float: center;
     width: 250px;
-  }
-  img{
+}
+
+img{
     width: 100%;
-  }
-  .box{
+}
+
+.box{
       position: center;
       text-align: center;
       width: 250px;
       display: inline-block;
       margin-left: 1%;
-  }
-  .subsubbox{
+}
+
+.subsubbox{
       position: center;
       text-align: center;
       width: 50px;
       display: inline-block;
-  }
-  .social-medias{
+}
+
+.social-medias{
       margin-top: -4%;
       position: center;
       text-align: center;
-  }
-  .linha{
+}
+
+.linha{
       position: center;
       text-align: center;
-  }
-  .coluna{
+}
+
+.coluna{
     float: left;
     width: 33.33%;
-  }
-  .row1{
+}
+
+.row1{
     border-collapse: separate; 
     border-spacing: 0px;
     margin: 0 0 0 0;
     margin-left: 10%;
-  }
-  .row1::after {
+}
+
+.row1::after {
     content: "";
     clear: both;
     display: table;
-  }
-  .subbox{
+}
+
+.subbox{
       position: relative;
-  }
-  @media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 500px) {
     .column {
       width: 100%;
     }
     .row1{
       width: 100%;
     }
-  }
+}
