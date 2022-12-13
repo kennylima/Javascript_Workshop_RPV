@@ -134,7 +134,7 @@
                       <a href="https://www.instagram.com/kenny.lima/?hl=pt-br"><img src="Imagens/instagram.svg" class="rounded-circle"/></a>
                     </div>             
                     <div class="subsubbox">
-                    <a href="https://www.linkedin.com/in/kenny-lima-630428184/"><img src="Imagens/linkedin.svg" class="rounded-circle"/></a>
+                    <a href="https://www.linkedin.com/in/kennylima"><img src="Imagens/linkedin.svg" class="rounded-circle"/></a>
                     </div>
                   </div>
           </div>
@@ -223,7 +223,6 @@ $(document).ready(function(){
     } 
   });
 
-//Função de scrollar para início
   $(window).scroll(function() {
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
@@ -252,14 +251,6 @@ function displayDate(){
   document.getElementById("alert").innerHTML = txt;
 }
 
-//Função Contador
-let elemento = document.querySelector('#contador');
-		let contador = 0;
-		
-		setInterval(() => elemento.innerHTML = contador++, 1000);
-
-    var counterVal = 0;
-
 //Função Contador de clique
 function incrementClick() {
     updateDisplay(++counterVal);
@@ -271,6 +262,15 @@ function resetCounter() {
 function updateDisplay(val) {
     document.getElementById("counter-label").innerHTML = val;
 }
+
+//Função Contador
+let elemento = document.querySelector('#contador');
+		let contador = 0;
+		
+		setInterval(() => elemento.innerHTML = contador++, 1000);
+
+    var counterVal = 0;
+
 </script>
 
 <!--Seletor estado e cidade-->
